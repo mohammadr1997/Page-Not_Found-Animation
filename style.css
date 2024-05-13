@@ -1,0 +1,833 @@
+.general{background-image:url(../1/graphic/BG.png);
+    width: 250px;
+    height: 250px; 
+    border-radius: 50%;
+    overflow: hidden;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: 110%; 
+    position: relative;
+}
+.all{
+    margin: 50px;
+   
+  
+}
+.error{
+    position: relative;
+    left: 32px;
+}
+
+.texterror{
+    font-size: 50px;
+    font-weight: 200px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.page{
+    display: inline-block;
+    color: gray;
+    position: relative;
+    left: 38px;
+    font-style:italic;
+}
+
+.red{
+  background-image: url(../1/graphic/png/red.png); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: -25px;
+  animation-name: red;
+  animation-delay: 0s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  width:100px ;
+  height: 40px;
+  position: relative;
+  top: 90px;
+  left: 60px;
+  border-radius: 20px;
+  transform:rotate(-45deg)
+}
+.red1{
+    background-image: url(../1/graphic/png/red1.png);
+    width:35px;
+    height:6px;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    background-size: cover;
+    background-position: 0px;
+    position: relative;
+    top: 0.5px;
+    left: 80px;
+    animation-name: red1;
+    animation-duration: 0.45s;
+    animation-delay: 0s;
+    animation-play-state: running;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+  transform:rotate(180deg)
+  
+  
+  
+}
+  
+
+
+
+.red2-1{
+    background-image: url(../1/graphic/png/red2-1.png);
+    width:31px;
+    height:6.32px;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    background-size: cover;
+    background-position: 0px;
+    position: absolute;
+    top: 13.10px;
+    left: 85px;
+    animation-name: red2-1;
+    animation-duration: 0.45s;
+    animation-delay: 0s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+  transform:rotate(180deg)
+}
+.red2-2{
+    background-image: url(../1/graphic/png/red2-2.png);
+    width:25px;
+    height:7px;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    background-size: cover;
+    background-position: 0px;
+    position: absolute;
+    animation-name: red2-2;
+    animation-delay: 0s;
+    animation-fill-mode: both;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+    animation-duration: 0.45s;
+    top: 13px;
+    left: 120px;
+  transform:rotate(180deg)
+}
+.red3{
+    background-image: url(../1/graphic/png/red3.png);
+    width:25px;
+    height:6.75px;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    background-size: cover;
+    background-position: 0px;
+    position: absolute;
+    top: 25.30px;
+    left: 87px;
+    animation-name: red3;
+    animation-play-state: running;
+    animation-fill-mode: both;
+    animation-delay: 0s;
+    animation-duration: 0.35s;
+    animation-iteration-count: infinite;
+  transform:rotate(180deg)
+
+}
+.red4{
+    background-image: url(../1/graphic/png/red4.png);
+    width:30px;
+    height:3.75px;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    background-size: cover;
+    background-position: 0px;
+    position: absolute;
+    top: 35.5px;
+    left: 80px;
+    animation-name: red4;
+    animation-delay: 0s;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+    animation-duration: 0.25s;
+  transform:rotate(180deg)
+}
+
+.yellow{
+  background-image: url(../1/graphic/png/yellow.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: -24px;
+  animation-name:yellow;
+  animation-timing-function: linear;
+  animation-duration: 1s;
+  animation-delay: 0s;
+  animation-fill-mode: both;
+  animation-play-state: running;
+  animation-iteration-count: infinite;
+  width: 55px;
+  height: 34px;
+  top: 102px;
+  left: 72px;
+  transform: rotate(-45deg);
+  border-radius: 28px;
+  position:absolute
+ 
+}
+.yellow-1{
+  background-image: url(../1/graphic/png/yellow1-1.png);
+  width: 17px;
+  height: 4px;
+  position: absolute;
+  top: 0.5px;
+  left: 42px;
+  animation-name: yellow-1;
+  animation-duration: 0.25s;
+  animation-delay: 0s;
+  animation-play-state: running;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+  border-radius: 25px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0px -1px;
+ 
+}
+.yellow1-2{
+  background-image: url(../1/graphic/png/yellow1-2.png);
+  width: 13px;
+  height: 4px;
+  position: absolute;
+  top: -0.5px;
+  left: 65px;
+  border-radius: 25px;
+  animation-name: yellow1-2;
+  animation-delay: 0s;
+  animation-duration: 0.30s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0px -1px;
+
+}
+.yellow2{
+  background-image: url(../1/graphic/png/yellow2.png);
+  width: 17px;
+  height: 4px;
+  position: absolute;
+  top: 9px;
+  left: 43px;
+  border-radius: 25px;
+  animation-name: yellow2;
+  animation-delay: 0s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  animation-duration: 0.25s;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0px -1px;
+
+}
+.yellow3-1{
+  background-image: url(../1/graphic/png/yellow3-1.png);
+  width: 15px;
+  height: 4.5px;
+  position: absolute;
+  top: 17.5px;
+  left: 44px;
+  border-radius: 25px;
+  animation-name: yellow3-1;
+  animation-duration: 0.25s;
+  animation-delay: 0s;
+  animation-play-state: running;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0px -1px;
+}
+.yellow3-2{
+  background-image: url(../1/graphic/png/yellow3-2.png);
+  width: 12px;
+  height: 4.5px;
+  position: absolute;
+  top: 17.5px;
+  left: 60px;
+  background-size: cover;
+  background-position: 0px -1px;
+  background-repeat: no-repeat;
+  border-radius: 25px;
+  animation-name: yellow3-2;
+  animation-delay: 0s;
+  animation-fill-mode: both;
+  animation-play-state: running;
+  animation-duration: 0.25s;
+  animation-iteration-count:infinite
+
+}
+
+.yellow-4{
+  background-image: url(../1/graphic/png/yellow4.png);
+  width: 20px;
+  height: 4.5px;
+  position: absolute;
+  top: 27.5px;
+  left: 34.5px;
+  border: 1ps solid yellow;
+  animation-name: yellow-4;
+  animation-duration: 0.18s;
+  animation-play-state: running;
+  animation-fill-mode: both;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  background-size: cover;
+  background-position: 5px;
+  background-repeat: no-repeat;
+  border-radius:100px
+}
+.white{
+  background-image: url(../1/graphic/png/white.png);
+  width: 37px;
+  height: 25px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation-name: white;
+  animation-duration: 1s;
+  animation-delay: 0s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  animation-timing-function: linear;
+  background-position: -15px;
+  border-radius: 25px;
+  position: absolute;
+  top: 114px;
+  left: 73px;
+  transform: rotate(-45deg);
+}
+
+.white1-1{
+  background-image: url(../1/graphic/png/white1-1.png);
+  background-color: aliceblue;
+  width:10px ;
+  height:3.75px ;
+  background-repeat: no-repeat;
+  animation-name: white1-1;
+  animation-delay: 0s;
+  animation-play-state: running;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+  animation-duration: 0.25s;
+  background-size: cover;
+  background-position: -15px;
+  border-radius: 30px;
+  position: absolute;
+  top: 0.5px;
+  left: 25px;
+  transform: rotate(180deg);
+
+}
+.white1-2{
+  background-image: url(../1/graphic/png/white1-2.png);
+  background-color: aliceblue;
+  width:7px ;
+  height:3.75px ;
+  background-repeat: no-repeat;
+  animation-name:white1-2;
+  animation-duration: 0.25s;
+  animation-delay: 0s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  background-size: cover;
+  background-position: -15px;
+  border-radius: 30px;
+  position: absolute;
+  top: 0.5px;
+  left: 36px;
+  transform: rotate(180deg);
+
+  
+}
+.white2{
+  background-image: url(../1/graphic/png/white2.png);
+  background-color: aliceblue;
+  width:12px ;
+  height:4.25px ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation-name: white2;
+  animation-duration: 0.30s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+  animation-play-state: running;
+  background-position: -15px;
+  border-radius: 30px;
+  position: absolute;
+  top: 8px;
+  left: 32px;
+  transform: rotate(180deg);
+}
+.white3{
+  background-image: url(../1/graphic/png/white3.png);
+  background-color: aliceblue;
+  width:10px ;
+  height:4.5px ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation-name: white3;
+  animation-delay: 0s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  animation-duration: 0.40s;
+  background-position: -15px;
+  border-radius: 30px;
+  position: absolute;
+  top: 16px;
+  left: 31px;
+  transform: rotate(180deg);
+ 
+}
+.white4-1{
+  background-image: url(../1/graphic/png/white4-1.png);
+  background-color: aliceblue;
+  width:8px ;
+  height:2px ;
+  background-repeat: no-repeat;
+  animation-name: white4-1;
+  animation-duration: 0.30s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  animation-fill-mode: both;
+  background-size: cover;
+  background-position: -15px;
+  border-radius: 30px;
+  position: absolute;
+  top: 22.5px;
+  left: 27px;
+  transform: rotate(180deg);
+}
+
+.white4-2{
+  background-image: url(../1/graphic/png/white4-2.png);
+  background-color: aliceblue;
+  width:8px ;
+  height:2px ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation-name: white4-2;
+  animation-duration: 0.25s;
+  animation-delay: 0s;
+  animation-play-state: running;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+  background-position: -15px;
+  border-radius: 30px;
+  position: absolute;
+  top: 22.5px;
+  left: 37.5px;
+  transform: rotate(180deg);
+}
+.meteor{
+  background-image: url(../1/graphic/png/meteor.png);
+  height: 30px;
+  width:35px ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation-name: meteor;
+  animation-duration: 1s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+  animation-play-state:running;
+  animation-timing-function:linear;
+  background-position: -3px 0px;
+  position: absolute;
+  top: 115px;
+  left:70px
+}
+
+.rock1{
+  background-image: url(../1/graphic/png/rock-1.png);
+  width: 45px;
+  height: 30px;
+  background-repeat: no-repeat;
+  animation-name: rock1;
+  animation-delay: 0s;
+  animation-duration: 1.25s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+  animation-play-state: running;
+  animation-timing-function: linear;
+  background-size: cover;
+  background-position: 0px -8px;
+  position: absolute;
+  left: 70px;
+  top: 40px;
+
+
+}
+
+.rock2{
+  background-image: url(../1/graphic/png/rock-2.png);
+  width: 45px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0px -8px;
+  animation-name: rock2;
+  animation-duration: 1.5s;
+  animation-delay: 0s;
+  animation-play-state: running;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+  position: absolute;
+  left: 155px;
+  top: 125px;
+}
+.rock3{
+  background-image: url(../1/graphic/png/rock-3.png);
+  width: 30px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation-name: rock3;
+  animation-delay: 0s;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  animation-fill-mode: both;
+  -o-animation-timing-function: linear;
+  background-position: 0px -8px;
+  position: absolute;
+  left: 215px;
+  top: 25px;
+}
+
+.rock4{
+  background-image: url(../1/graphic/png/rock-4.png);
+  width: 30px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation-name: rock4;
+  animation-delay: 0s;
+  animation-play-state: running;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+  animation-duration: 1.25s;
+  background-position: 0px -8px;
+  position: absolute;
+  left: 70px;
+  top: 85px;
+}
+.vector1{
+  width: 105px;
+  height: 0.5px;
+  background-color:aliceblue;
+  animation-name: vector1;
+  animation-duration: 0.20s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 0s;
+  animation-fill-mode: both;
+  animation-play-state: running;
+  transform: rotate(135deg);
+  position: absolute;
+  top: 45px;
+  left: 10px;
+}
+.vector2{
+  width: 105px;
+  height: 0.5px;
+  background-color:aliceblue;
+  transform: rotate(135deg);
+  position: absolute;
+  animation-name: vector2;
+  animation-delay: 0s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  animation-timing-function: linear;
+  animation-duration: 0.20s;
+  top: 180px;
+  left: 120px;
+
+}
+
+@keyframes red1{
+  from{
+    position: relative;
+    top: 0.5px;
+    left: 80px;
+  
+  }
+  to{
+    position: relative;
+    top: 0.5px;
+    left: 86px;
+   
+  }
+}
+@keyframes red2-1{
+  from{ position: absolute;
+    top: 13.10px;
+    left: 85px;}
+    to{
+      position: absolute;
+      top: 13.10px;
+      left: 89px;
+    }
+}
+@keyframes red2-2{
+  from{ position: absolute;
+    top: 13px;
+    left: 120px;}
+    to{ position: absolute;
+      top: 13px;
+      left: 125px;}
+}
+@keyframes red3{
+  from{ position: absolute;
+    top: 25.30px;
+    left: 87px;
+
+  }
+  to{
+    position: absolute;
+    top: 25.30px;
+    left: 91px;
+  }
+}
+@keyframes red4{
+  from{  position: absolute;
+    top: 35.5px;
+    left: 80px;}
+    to{  position: absolute;
+      top: 35.5px;
+      left: 85px;}
+}
+@keyframes yellow-1{
+  from{ position: absolute;
+    top: 0.5px;
+    left: 42px;
+
+  }
+  to{ position: absolute;
+    top: 0.5px;
+    left: 46px;}
+}
+@keyframes yellow1-2{
+  from{position: absolute;
+    top: -0.5px;
+    left: 65px;}
+    to{
+      position: absolute;
+  top: -0.5px;
+  left: 69px;
+    }
+}
+@keyframes yellow3-1{
+  from{ position: absolute;
+    top: 17.5px;
+    left: 44px;}
+    to{ position: absolute;
+      top: 17.5px;
+      left: 47px;}
+
+}
+
+  
+
+@keyframes yellow2{
+  from{ position: absolute;
+    top: 9px;
+    left: 43px;
+  }
+    to{
+      position: absolute;
+      top: 9px;
+      left: 47px;
+    }
+}
+@keyframes yellow3-2{
+  from{position: absolute;
+    top: 17.5px;
+    left: 60px;}
+    to{
+      position: absolute;
+  top: 17.5px;
+  left: 64px;
+    }
+}
+
+@keyframes yellow-4{
+  from{position: absolute;
+    top: 27.5px;
+    left: 34.5px;}
+    to{position: absolute;
+      top: 27.5px;
+      left: 38px;}
+}
+
+@keyframes white1-1{
+  from{
+    position: absolute;
+    top: 0.5px;
+    left: 25px;
+  }
+  to{
+    position: absolute;
+    top: 0.5px;
+    left: 28px;
+  }
+}
+@keyframes white1-2{
+  from{ position: absolute;
+    top: 0.5px;
+    left: 36px;}
+  to{ position: absolute;
+    top: 0.5px;
+    left: 39px;}
+}
+@keyframes white2{
+  from{ position: absolute;
+    top: 8px;
+    left: 32px;}
+    to{ position: absolute;
+      top: 8px;
+      left: 35px;}
+}
+@keyframes white3{
+  from{  position: absolute;
+    top: 16px;
+    left: 31px;}
+    to{  position: absolute;
+      top: 16px;
+      left: 35px;}
+}
+@keyframes white4-1{
+  from{ position: absolute;
+    top: 22.5px;
+    left: 27px;}
+    to{ position: absolute;
+      top: 22.5px;
+      left: 31px;}
+}
+@keyframes white4-2{
+  from{ position: absolute;
+    top: 22.5px;
+    left: 37.5px;}
+    to{ position: absolute;
+      top: 22.5px;
+      left: 39px;}
+}
+@keyframes meteor{
+  0%{   position: absolute;
+    top: 115px;
+    left:70px;transform: rotate(0deg);
+   
+     
+  }
+
+50%{ position: absolute;transform: rotate(180deg);
+  top: 115px;
+  left:70px}
+
+  100%{ position: absolute;transform: rotate(360deg);
+    top: 115px;
+    left:70px}
+}
+
+ 
+
+
+@keyframes rock3{
+  from{ position: absolute;
+    left: 15px;
+    top: 225px;}
+  to{  position: absolute;
+    left: 235px;
+    top: 25px;}
+    
+}
+@keyframes rock2{
+  from{ position: absolute;
+    left: 25px;
+    top: 235px;}
+    to{position: absolute;
+      left: 255px;
+      top: 45px;}
+}
+@keyframes rock1{
+  from{  position: absolute;
+    left: -40px;
+    top: 120px;}
+    to{  position: absolute;
+      left: 190px;
+      top: -55px;}
+}
+@keyframes rock4{
+  from{ position: absolute;
+    left: -50px;
+    top: 180px;}
+    to{ position: absolute;
+      left: 220px;
+      top: -40px;}
+}
+@keyframes vector2{
+  from{ position: absolute ; top: 180px;
+    left: 120px; opacity: 0%;}
+  to{ position: absolute; top: 178px;
+    left: 117px;opacity: 100%;}
+}
+@keyframes vector1{
+  from{ position: absolute;
+    top: 45px;
+    left: 10px;opacity: 0%;}
+    to{ position: absolute;
+      top: 43px;
+      left: 7px;opacity: 100%;}
+}
+@keyframes red{
+  0%,100%{ position: relative;
+    top: 90px;
+    left: 60px;}
+    50%{ position: relative;
+      top: 83px;
+      left: 60px;}
+    
+}
+@keyframes yellow{
+  0%,100%{ top: 102px;
+    left: 72px; position: absolute;}
+    50%{ top: 95px;
+      left: 72px;position: absolute;}
+  
+}
+@keyframes white{
+  0%,100%{ position: absolute;
+    top: 114px;
+    left: 73px;}
+    50%{ position: absolute;
+      top: 107px;
+      left: 73px;}
+  
+}
+
+
+
+
+
+
+
+ 
