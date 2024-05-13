@@ -1,0 +1,1 @@
+pure css animation was created to deeply understand and comprehend html and specially css. This mini-project practiced at I30center Academy in Mashhad., dates back to the days that i started newly learning basics of Front-end web developing
