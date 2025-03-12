@@ -1,4 +1,4 @@
-.general{background-image:url(../1/graphic/BG.png);
+.general{background-image:url(./graphic/BG.png);
     width: 250px;
     height: 250px; 
     border-radius: 50%;
@@ -32,7 +32,7 @@
 }
 
 .red{
-  background-image: url(../1/graphic/png/red.png); 
+  background-image: url(./graphic/png/red.png); 
   background-repeat: no-repeat;
   background-size: cover;
   background-position: -25px;
@@ -52,7 +52,7 @@
   transform:rotate(-45deg)
 }
 .red1{
-    background-image: url(../1/graphic/png/red1.png);
+    background-image: url(./graphic/png/red1.png);
     width:35px;
     height:6px;
     background-repeat: no-repeat;
@@ -78,7 +78,7 @@
 
 
 .red2-1{
-    background-image: url(../1/graphic/png/red2-1.png);
+    background-image: url(./graphic/png/red2-1.png);
     width:31px;
     height:6.32px;
     background-repeat: no-repeat;
@@ -97,7 +97,7 @@
   transform:rotate(180deg)
 }
 .red2-2{
-    background-image: url(../1/graphic/png/red2-2.png);
+    background-image: url(./graphic/png/red2-2.png);
     width:25px;
     height:7px;
     background-repeat: no-repeat;
@@ -116,7 +116,7 @@
   transform:rotate(180deg)
 }
 .red3{
-    background-image: url(../1/graphic/png/red3.png);
+    background-image: url(./graphic/png/red3.png);
     width:25px;
     height:6.75px;
     background-repeat: no-repeat;
@@ -136,7 +136,7 @@
 
 }
 .red4{
-    background-image: url(../1/graphic/png/red4.png);
+    background-image: url(./graphic/png/red4.png);
     width:30px;
     height:3.75px;
     background-repeat: no-repeat;
@@ -155,7 +155,7 @@
 }
 
 .yellow{
-  background-image: url(../1/graphic/png/yellow.png);
+  background-image: url(./graphic/png/yellow.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: -24px;
@@ -176,7 +176,7 @@
  
 }
 .yellow-1{
-  background-image: url(../1/graphic/png/yellow1-1.png);
+  background-image: url(./graphic/png/yellow1-1.png);
   width: 17px;
   height: 4px;
   position: absolute;
@@ -195,7 +195,7 @@
  
 }
 .yellow1-2{
-  background-image: url(../1/graphic/png/yellow1-2.png);
+  background-image: url(./graphic/png/yellow1-2.png);
   width: 13px;
   height: 4px;
   position: absolute;
@@ -214,7 +214,7 @@
 
 }
 .yellow2{
-  background-image: url(../1/graphic/png/yellow2.png);
+  background-image: url(./graphic/png/yellow2.png);
   width: 17px;
   height: 4px;
   position: absolute;
@@ -233,7 +233,7 @@
 
 }
 .yellow3-1{
-  background-image: url(../1/graphic/png/yellow3-1.png);
+  background-image: url(./graphic/png/yellow3-1.png);
   width: 15px;
   height: 4.5px;
   position: absolute;
@@ -251,7 +251,7 @@
   background-position: 0px -1px;
 }
 .yellow3-2{
-  background-image: url(../1/graphic/png/yellow3-2.png);
+  background-image: url(./graphic/png/yellow3-2.png);
   width: 12px;
   height: 4.5px;
   position: absolute;
@@ -271,7 +271,7 @@
 }
 
 .yellow-4{
-  background-image: url(../1/graphic/png/yellow4.png);
+  background-image: url(./graphic/png/yellow4.png);
   width: 20px;
   height: 4.5px;
   position: absolute;
@@ -290,7 +290,7 @@
   border-radius:100px
 }
 .white{
-  background-image: url(../1/graphic/png/white.png);
+  background-image: url(./graphic/png/white.png);
   width: 37px;
   height: 25px;
   background-repeat: no-repeat;
@@ -311,7 +311,7 @@
 }
 
 .white1-1{
-  background-image: url(../1/graphic/png/white1-1.png);
+  background-image: url(./graphic/png/white1-1.png);
   background-color: aliceblue;
   width:10px ;
   height:3.75px ;
@@ -332,7 +332,7 @@
 
 }
 .white1-2{
-  background-image: url(../1/graphic/png/white1-2.png);
+  background-image: url(./graphic/png/white1-2.png);
   background-color: aliceblue;
   width:7px ;
   height:3.75px ;
@@ -354,7 +354,7 @@
   
 }
 .white2{
-  background-image: url(../1/graphic/png/white2.png);
+  background-image: url(./graphic/png/white2.png);
   background-color: aliceblue;
   width:12px ;
   height:4.25px ;
@@ -374,7 +374,7 @@
   transform: rotate(180deg);
 }
 .white3{
-  background-image: url(../1/graphic/png/white3.png);
+  background-image: url(./graphic/png/white3.png);
   background-color: aliceblue;
   width:10px ;
   height:4.5px ;
@@ -395,7 +395,7 @@
  
 }
 .white4-1{
-  background-image: url(../1/graphic/png/white4-1.png);
+  background-image: url(./graphic/png/white4-1.png);
   background-color: aliceblue;
   width:8px ;
   height:2px ;
@@ -416,7 +416,7 @@
 }
 
 .white4-2{
-  background-image: url(../1/graphic/png/white4-2.png);
+  background-image: url(./graphic/png/white4-2.png);
   background-color: aliceblue;
   width:8px ;
   height:2px ;
@@ -436,7 +436,7 @@
   transform: rotate(180deg);
 }
 .meteor{
-  background-image: url(../1/graphic/png/meteor.png);
+  background-image: url(./graphic/png/meteor.png);
   height: 30px;
   width:35px ;
   background-repeat: no-repeat;
@@ -455,7 +455,7 @@
 }
 
 .rock1{
-  background-image: url(../1/graphic/png/rock-1.png);
+  background-image: url(./graphic/png/rock-1.png);
   width: 45px;
   height: 30px;
   background-repeat: no-repeat;
@@ -476,7 +476,7 @@
 }
 
 .rock2{
-  background-image: url(../1/graphic/png/rock-2.png);
+  background-image: url(./graphic/png/rock-2.png);
   width: 45px;
   height: 30px;
   background-repeat: no-repeat;
@@ -494,7 +494,7 @@
   top: 125px;
 }
 .rock3{
-  background-image: url(../1/graphic/png/rock-3.png);
+  background-image: url(./graphic/png/rock-3.png);
   width: 30px;
   height: 20px;
   background-repeat: no-repeat;
@@ -513,7 +513,7 @@
 }
 
 .rock4{
-  background-image: url(../1/graphic/png/rock-4.png);
+  background-image: url(./graphic/png/rock-4.png);
   width: 30px;
   height: 20px;
   background-repeat: no-repeat;
