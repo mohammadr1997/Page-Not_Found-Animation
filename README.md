@@ -8,7 +8,7 @@ A creative and animated **"404 Page Not Found"** error screen built with only **
 ├── style.css       # All custom styles
 
 ## 📸 Image
-![Gameplay Structure](./graphics/project.png)
+![Gameplay Structure](./graphic/project.png)
 
 Made with ❤️ using just HTML and CSS for fun and learning
 
