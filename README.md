@@ -3,9 +3,9 @@ A creative and animated **"404 Page Not Found"** error screen built with only **
 ### 🔗[Live Demo](https://page-not-found-animation.vercel.app/)
 
 ## 📁 Project Structure
-/
-├── index.html      # Main HTML file
-├── style.css       # All custom styles
+*/
+* ├── index.html      # Main HTML file
+* ├── style.css       # All custom styles
 
 ## 📸 Image
 ![Gameplay Structure](./graphic/project.png)
